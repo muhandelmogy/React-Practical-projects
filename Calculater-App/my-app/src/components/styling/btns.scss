@@ -1,0 +1,28 @@
+.Calculator-keyboard{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 18rem;
+    width: 100%;
+    background-color: #8DA09B;
+    button{
+        width:5rem;
+        height:3rem;
+        background-color: #A9B6AF;
+        text-align: center;
+        font-size: 15px;
+        border: 1px solid #425E68;
+        color: black;
+        font-weight: bolder;
+        &:hover{
+            background-color: #425E68;
+            color: white;
+        }
+    }
+}
+/* 
+    every btn should got 1.45rem hight
+    and 1.66 width
+
+*/

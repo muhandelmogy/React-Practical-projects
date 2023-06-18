@@ -1,0 +1,16 @@
+@mixin flex-directions-items($FlexDirection,$RowItemsDirection, $ColumnItemsDirection){
+    display: flex;
+    flex-direction: $FlexDirection;
+    justify-items: $RowItemsDirection;
+    align-items: $ColumnItemsDirection;
+}
+
+*{
+    margin: 0;
+}
+
+
+.App{
+    @include flex-directions-items(column, center, center);
+    margin-top: 5rem;
+}
